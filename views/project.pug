@@ -1,0 +1,42 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        //- Use interpolation to dynamically add the project title.
+        h1= project.project_name
+
+        //- Use interpolation to dynamically add the project description.
+        //- p.lead.text-light
+        each s in str
+            p.lead.text-light= s
+           
+              
+            
+          
+            
+          
+         
+
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies
+
+        //- Use an `each` iterator to replace the li tags below and interpolation to dynamically add the technologies used in each project.
+        ul
+          each tech in project.technologies
+            li= tech
+
+        
+
+        //- Use template literals and interpolation to add URLs to the hrefs below so they link to the repo and the live version of each project.
+        a.button.expanded(href=`${project.live_link}`) Live Demo
+        a.button.expanded(href=`${project.github_link}`) GitHub Repo
+    
+  
+      each image_url in project.image_urls
+        img.image(src=`${image_url}` width='1200' height='550' alt='Hi')
+    

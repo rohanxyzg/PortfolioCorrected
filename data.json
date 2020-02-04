@@ -1,0 +1,80 @@
+{
+    "projects" : [
+        
+        {
+            "id" : 0,
+            "project_name" : "List Pagnination And Filtering ",
+            "description" : "Used a common web development technique known as pagination to enhance the usability of a web page\nStarted with a page that contains a list of 54 student names, photos and email addresses\nWrote JavaScript to display 10 names at a time, and add a navigation system -- a series of links at the bottom of the page -- to let users click through the other student entries, 10 at a time",
+            "technologies" : [
+                "JavaScript",
+                "HTML5",
+                "CSS"
+            ],
+            "live_link" : "https://rohanxyzg.github.io/ListPaginationAndFiltering/.",
+            "github_link" : "https://github.com/rohanxyzg/ListPaginationAndFiltering",
+            "image_urls" : ["../static/images/p01pic01.png","../static/images/p01pic02.png","../static/images/p01pic03.png"]
+        },
+        {
+            "id" : 1,
+            "project_name" : "Interactive Form ",
+            "description" : "Created a browser-based, word guessing game: Phrase Hunter.\n Used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard",
+            "technologies" : [
+                "JavaScript",
+                "HTML5",
+                "CSS",
+                "OOP"
+            ],
+            "live_link" : "https://rohanxyzg.github.io/Interactive-Form/",
+            "github_link" : "https://github.com/rohanxyzg/Interactive-Form",
+            "image_urls" : ["../static/images/p02pic01.png",
+                            "../static/images/p02pic02.png",
+                            "../static/images/p02pic03.png"]
+        },
+        {
+            "id" : 2,
+            "project_name" : "OOP Game Show",
+            "description" : "Enhanced a form using JavaScript so that it’s engaging, interactive, and easy to use\nAdding customized and conditional behavior and interactivity\nValidating user input and providing helpful error messages when the user enters invalid information into the form fields",
+            "technologies" : [
+                "JavaScript",
+                "HTML5",
+                "CSS"
+            ],
+            "live_link" : "https://rohanxyzg.github.io/OOP-Game-Show-App/",
+            "github_link" : "https://github.com/rohanxyzg/OOP-Game-Show-App",
+            "image_urls" : ["../static/images/p03pic01.png",
+                            "../static/images/p03pic02.png",
+                            "../static/images/p03pic03.png"]
+        },
+        {
+            "id" : 3,
+            "project_name" : "Public Api Requests",
+            "description" : "Built an app for a fictional company called Awesome Startup, a distributed company with remote employees working all over the world. They need a smart way for employees to share contact information with each other\nUsed the Random User Generator API (https://randomuser.me/) to grab information for 12 random employees and use that data to build a prototype for an Awesome Startup employee directory \n Requested a JSON object from the API and parsed the data so that 12 employees are listed in a grid with their thumbnail image, full name, email, and location. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address",
+            "technologies" : [
+                "JavaScript",
+                "AJAX",
+                "HTML5",
+                "CSS"
+            ],
+            "live_link" : "https://rohanxyzg.github.io/Public-API-Requests/",
+            "github_link" : "https://github.com/rohanxyzg/Public-API-Requests",
+            "image_urls" : ["../static/images/p04pic01.png",
+                            "../static/images/p04pic02.png",
+                            "../static/images/p04pic03.png"]
+
+        },
+        {
+            "id" : 4,
+            "project_name" : "Random Quote Generator",
+            "description" : "Genetates Random Quotes",
+            "technologies" : [
+                "JavaScript",
+                "HTML5",
+                "CSS"
+            ],
+            "live_link" : "https://rohanxyzg.github.io/a_random_quote_generator-v1/",
+            "github_link" : "https://github.com/rohanxyzg/a_random_quote_generator-v1",
+            "image_urls" : ["../static/images/p05pic01.png","../static/images/p05pic02.png","../static/images/p05pic03.png"]
+        }
+        
+    ]
+}
