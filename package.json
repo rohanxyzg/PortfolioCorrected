@@ -1,15 +1,25 @@
 {
-  "name": "static_node_and_express_site-v1",
+  "name": "treehouse-project-6",
   "version": "1.0.0",
-  "description": "TechDegree Project 6",
+  "description": "degree6_package",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+  },
+  "keywords": [
+    "Techdegree"
+  ],
+  "author": "Roy Pöschel",
   "license": "ISC",
+
   "dependencies": {
-    "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
   }
 }
